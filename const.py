@@ -15,9 +15,9 @@ CONF_ENABLE_PARAMETER_CONFIGURATION = "enable_parameter_configuration"
 DATA_DEVICE_DATAS = "device_datas"
 DATA_UPDATE_COORDINATORS = "update_coordinators"
 
-INVERTER_UPDATE_INTERVAL = timedelta(seconds=30)
-POWER_METER_UPDATE_INTERVAL = timedelta(seconds=30)
-ENERGY_STORAGE_UPDATE_INTERVAL = timedelta(seconds=30)
+INVERTER_UPDATE_INTERVAL = timedelta(seconds=3)
+POWER_METER_UPDATE_INTERVAL = timedelta(seconds=3)
+ENERGY_STORAGE_UPDATE_INTERVAL = timedelta(seconds=3)
 UPDATE_TIMEOUT = timedelta(seconds=29)
 # configuration can only change when edited through FusionSolar web or app
 CONFIGURATION_UPDATE_INTERVAL = timedelta(minutes=15)
